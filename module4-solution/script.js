@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 // ******************************* 
 // START HERE IF YOU WANT AN EASIER STARTING POINT FOR THIS ASSIGNMENT
 // *******************************
@@ -65,3 +66,25 @@ WARNING!!! WARNING!!!
     }
     
     })();
+=======
+
+(function () {
+
+    var names = ["Yaakov", "John", "Jen", "Jason", "Paul", "Frank", "Larry", "Paula", "Laura", "Jim"];
+    
+   
+    for (var i = 0; i < names.length; i++) {
+    
+     
+      var firstLetter = names[i].charAt(0).toLowerCase();
+    
+    
+      if (firstLetter === 'j') {
+        byeSpeaker.speak(names[i]);
+      } else {
+        helloSpeaker.speak(names[i]);
+      }
+    }
+    
+    })();
+>>>>>>> ab66fdb6807ba4188b4aaf60ce410d3c9b54d8c1
